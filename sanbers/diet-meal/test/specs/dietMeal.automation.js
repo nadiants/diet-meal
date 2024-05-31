@@ -1,5 +1,5 @@
-// Scenario : From open App to Home Screen App Diet Meal
-
+// Scenario : Open App to Home Screen App Diet Meal
+//test
 describe('Open Diet Meal Application', function() {
     it('should open Diet Meal app', async () => {
         const welcome = await $('//android.widget.TextView[@resource-id="com.fghilmany.dietmealapp:id/header_welcome"]');
